@@ -55,17 +55,6 @@ This project focuses on predicting **breast cancer diagnosis** using machine lea
 
 ---
 
-## 📉 PCA Visualization
-
-The PCA plot below shows how the two principal components separate benign and malignant tumor data points:
-
-![PCA Visualization](./a605b051-5bb2-4d6e-b0ac-936094848253.png)
-
-> 🟡 Yellow: Benign tumors  
-> 🔵 Blue: Malignant tumors  
-
----
-
 ## ✅ Results
 
 - **Model Used:** Logistic Regression  
