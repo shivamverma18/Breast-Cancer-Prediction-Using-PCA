@@ -77,7 +77,12 @@ The PCA plot below shows how the two principal components separate benign and ma
 ---
 
 ## 🗂 Project Structure
-
+```
+📁 Breast-Cancer-Prediction-Using-PCA/
+│
+├── 📓 Breast Cancer Prediction Using PCA.ipynb
+├── 📄 README.md
+├── 📄 requirements.txt
 
 
 
