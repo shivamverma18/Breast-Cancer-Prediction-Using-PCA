@@ -79,3 +79,15 @@ The PCA plot below shows how the two principal components separate benign and ma
 ## 🗂 Project Structure
 
 
+
+
+## 🚀 How to Run
+
+### Step 1: Clone the repository
+```bash
+git clone https://github.com/shivamverma18/Breast-Cancer-Prediction-Using-PCA.git
+
+pip install -r requirements.txt
+
+jupyter notebook "Breast Cancer Prediction Using PCA.ipynb"
+
