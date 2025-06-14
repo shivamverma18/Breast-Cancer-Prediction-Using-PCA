@@ -1,12 +1,17 @@
+
 # 🧠 Breast Cancer Prediction Using PCA 🎯
 
-This project focuses on predicting **breast cancer diagnosis** using machine learning techniques after **dimensionality reduction** via **Principal Component Analysis (PCA)**. The dataset used is the **Breast Cancer Wisconsin (Diagnostic) dataset**, available from `sklearn.datasets`.
+This project focuses on predicting **breast cancer diagnosis** using machine learning techniques after **dimensionality reduction** via **Principal Component Analysis (PCA)**. The model helps classify tumors as **benign** or **malignant** efficiently using reduced features.
+
+---
 
 ## 📌 Objective
 
-To build an efficient ML model that:
-- Reduces feature space using PCA
-- Predicts whether a tumor is **benign (B)** or **malignant (M)**
+- Apply **PCA** to reduce the dimensionality of breast cancer dataset features.
+- Build a machine learning model to predict cancer diagnosis.
+- Visualize how PCA helps separate data points in lower dimensions.
+
+---
 
 ## 📊 Dataset Overview
 
@@ -14,47 +19,63 @@ To build an efficient ML model that:
 - **Target Variable:** Diagnosis (M = Malignant, B = Benign)
 - **Source:** `sklearn.datasets.load_breast_cancer()`
 
-## 🔍 Technologies & Tools
+---
 
-- Python
-- NumPy & Pandas
-- Matplotlib & Seaborn
-- Scikit-learn
-- Jupyter Notebook
+## ⚙️ Technologies Used
+
+- **Languages:** Python
+- **Libraries:**  
+  - `numpy`, `pandas`  
+  - `matplotlib`, `seaborn`  
+  - `scikit-learn`  
+  - `jupyter-notebook`
+
+---
 
 ## 📈 Workflow
 
-1. **Data Preprocessing**
-   - Dataset loading & exploration
-   - Label encoding
-   - Feature scaling using `StandardScaler`
+### 1. Data Preprocessing
+- Load dataset using `sklearn`
+- Encode diagnosis labels to numeric
+- Standardize features using `StandardScaler`
 
-2. **Dimensionality Reduction**
-   - Applying **PCA** to reduce from 30 features to 2 principal components
-   - Visualizing the spread of the data in reduced dimension
+### 2. PCA Transformation
+- Reduce 30 features to **2 principal components**
+- Visualize data distribution after PCA
 
-3. **Model Building**
-   - Using **Logistic Regression** for classification
-   - Training and testing on PCA-transformed data
+### 3. Model Building
+- Use **Logistic Regression** on PCA-transformed data
+- Train-test split (80-20)
+- Model fitting and prediction
 
-4. **Evaluation**
-   - Accuracy score
-   - Confusion matrix
-   - PCA component visualization
+### 4. Evaluation
+- Accuracy score
+- Confusion Matrix
+- Visual separation of cancer types via PCA
+
+---
 
 ## 📉 PCA Visualization
 
-<img src="https://github.com/shivamverma18/Breast-Cancer-Prediction-Using-PCA/assets/pca-plot.png" alt="PCA scatter plot" width="600"/>
+The PCA plot below shows how the two principal components separate benign and malignant tumor data points:
 
-> The PCA transformation allows us to **visualize** the data separability between benign and malignant classes clearly.
+![PCA Visualization](./a605b051-5bb2-4d6e-b0ac-936094848253.png)
+
+> 🟡 Yellow: Benign tumors  
+> 🔵 Blue: Malignant tumors  
+
+---
 
 ## ✅ Results
 
-- **Model:** Logistic Regression (on PCA-reduced features)
-- **Accuracy:** ~93%
-- **Advantages:**
-  - Reduced overfitting
-  - Lower computational complexity
+- **Model Used:** Logistic Regression  
+- **Accuracy Achieved:** ~93%  
+- **Observations:**
+  - PCA successfully captures variance with just 2 components.
+  - Even with reduced dimensions, classification is quite effective.
 
-## 🗂️ Project Structure
+---
+
+## 🗂 Project Structure
+
 
