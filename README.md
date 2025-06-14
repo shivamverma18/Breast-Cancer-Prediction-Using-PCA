@@ -73,9 +73,7 @@ The PCA plot below shows how the two principal components separate benign and ma
 - **Observations:**
   - PCA successfully captures variance with just 2 components.
   - Even with reduced dimensions, classification is quite effective.
-
 ---
-
 ## 🗂 Project Structure
 ```
 📁 Breast-Cancer-Prediction-Using-PCA/
@@ -83,7 +81,7 @@ The PCA plot below shows how the two principal components separate benign and ma
 ├── 📓 Breast Cancer Prediction Using PCA.ipynb
 ├── 📄 README.md
 ├── 📄 requirements.txt
-
+---
 
 
 ## 🚀 How to Run
